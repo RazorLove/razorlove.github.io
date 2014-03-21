@@ -39,17 +39,21 @@ h2 {
   margin-top: 85px;
 }
 
+a {
+  color: $ce;
+}
+
 header {
   z-index: 100;
   //left: 0;
-  top: 0px;
+  //top: 0px;
   height: 85px;
   width: 100%;
   position: fixed;
   background: $c3;
   //border-bottom: 4px solid $c4;
   h1 {
-    margin-left: 50px;
+    margin-left: 45px;
   }
   nav {
     max-width: 650px;
@@ -57,26 +61,29 @@ header {
     //padding: 0 10px;
     background: transparent;
     margin: 6px auto;
-    margin-top: -65px;
+    margin-top: -50px;
     li {
-      font-weight: normal;
+      //font-weight: normal;
       list-style: none;
       display: inline;
-      color: $ce;
-      line-height: 50px;
-      font-size: 14px;
+      //color: $ce;
+      //line-height: 50px;
+      //font-size: 14px;
       a {
         color: $ce;
         background: $c2;
-        border: 1px solid $c4;
+        //border: 1px solid $c4;
         //box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
         //background-color: #93bd20;
         padding: 10px;
-        margin-top: 6px;
-        line-height: 14px;
+        //margin-top: 6px;
+        //line-height: 14px;
         font-size: 14px;
-        display: inline-block;
+        //display: inline-block;
         text-align: center;
+        &:hover {
+          background: $c4;
+        }
       }
     }
   }

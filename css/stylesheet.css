@@ -44,37 +44,33 @@ h2 {
 .container {
   margin-top: 85px; }
 
+a {
+  color: #eeeeee; }
+
 header {
   z-index: 100;
-  top: 0px;
   height: 85px;
   width: 100%;
   position: fixed;
   background: #333333; }
   header h1 {
-    margin-left: 50px; }
+    margin-left: 45px; }
   header nav {
     max-width: 650px;
     background: transparent;
     margin: 6px auto;
-    margin-top: -65px; }
+    margin-top: -50px; }
     header nav li {
-      font-weight: normal;
       list-style: none;
-      display: inline;
-      color: #eeeeee;
-      line-height: 50px;
-      font-size: 14px; }
+      display: inline; }
       header nav li a {
         color: #eeeeee;
         background: #222222;
-        border: 1px solid #444444;
         padding: 10px;
-        margin-top: 6px;
-        line-height: 14px;
         font-size: 14px;
-        display: inline-block;
         text-align: center; }
+        header nav li a:hover {
+          background: #444444; }
 
 /*
 header nav li a:hover {
