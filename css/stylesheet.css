@@ -23,17 +23,19 @@ section {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    text-align: center;
-    border-right: 1px solid #eeeeee; }
+    text-align: center; }
     section aside:last-child {
       margin-right: 0; }
   section article {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 74.41059%; }
+    width: 74.41059%;
+    border-left: 1px solid #eeeeee; }
     section article:last-child {
       margin-right: 0; }
+    section article * {
+      margin-left: 20px; }
 
 h2 {
   text-align: center;
